@@ -12170,3 +12170,63 @@ INFO  - 2016-02-14 11:03:49.641; org.apache.solr.core.SolrCore; [books_metadata]
 INFO  - 2016-02-14 11:03:49.652; org.apache.solr.core.SolrCore; [books_metadata] webapp=/solr path=/admin/system params={_=1455440629352&wt=json} status=0 QTime=29 
 INFO  - 2016-02-14 11:03:49.660; org.apache.solr.core.SolrCore; [books_metadata] webapp=/solr path=/admin/luke params={numTerms=0&_=1455440629348&show=index&wt=json} status=0 QTime=37 
 INFO  - 2016-02-14 11:03:51.627; org.apache.solr.core.SolrCore; [books_metadata] webapp=/solr path=/select params={indent=true&q=*:*&_=1455440631608&wt=json} hits=0 status=0 QTime=15 
+INFO  - 2016-02-16 14:14:36.063; org.eclipse.jetty.server.Server; Graceful shutdown SocketConnector@0.0.0.0:8983
+INFO  - 2016-02-16 14:14:36.066; org.eclipse.jetty.server.Server; Graceful shutdown o.e.j.w.WebAppContext{/solr,file:/home/ba/work/new_solr/solr/example/solr-webapp/webapp/},/home/ba/work/new_solr/solr/example/webapps/solr.war
+INFO  - 2016-02-16 14:14:37.068; org.apache.solr.core.CoreContainer; Shutting down CoreContainer instance=1608602295
+INFO  - 2016-02-16 14:14:37.068; org.apache.solr.core.SolrCore; [sci_names]  CLOSING SolrCore org.apache.solr.core.SolrCore@6f494fcf
+INFO  - 2016-02-16 14:14:37.069; org.apache.solr.update.DirectUpdateHandler2; closing DirectUpdateHandler2{commits=129,autocommits=0,soft autocommits=0,optimizes=126,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=126,cumulative_deletesById=0,cumulative_deletesByQuery=3,cumulative_errors=0,transaction_logs_total_size=1082,transaction_logs_total_number=10}
+INFO  - 2016-02-16 14:14:37.069; org.apache.solr.update.SolrCoreState; Closing SolrCoreState
+INFO  - 2016-02-16 14:14:37.069; org.apache.solr.update.DefaultSolrCoreState; SolrCoreState ref count has reached 0 - closing IndexWriter
+INFO  - 2016-02-16 14:14:37.069; org.apache.solr.update.DefaultSolrCoreState; closing IndexWriter with IndexWriterCloser
+INFO  - 2016-02-16 14:14:37.071; org.apache.solr.core.SolrCore; [sci_names] Closing main searcher on request.
+INFO  - 2016-02-16 14:14:37.071; org.apache.solr.core.CachingDirectoryFactory; Closing StandardDirectoryFactory - 2 directories currently being tracked
+INFO  - 2016-02-16 14:14:37.072; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/ba/work/new_solr/solr/example/solr/sci_names/data [CachedDir<<refCount=0;path=/home/ba/work/new_solr/solr/example/solr/sci_names/data;done=false>>]
+INFO  - 2016-02-16 14:14:37.072; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/ba/work/new_solr/solr/example/solr/sci_names/data
+INFO  - 2016-02-16 14:14:37.072; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/ba/work/new_solr/solr/example/solr/sci_names/data/index [CachedDir<<refCount=0;path=/home/ba/work/new_solr/solr/example/solr/sci_names/data/index;done=false>>]
+INFO  - 2016-02-16 14:14:37.072; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/ba/work/new_solr/solr/example/solr/sci_names/data/index
+INFO  - 2016-02-16 14:14:37.073; org.apache.solr.core.SolrCore; [books_metadata]  CLOSING SolrCore org.apache.solr.core.SolrCore@22a93f26
+INFO  - 2016-02-16 14:14:37.073; org.apache.solr.update.DirectUpdateHandler2; closing DirectUpdateHandler2{commits=595,autocommits=0,soft autocommits=0,optimizes=592,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=592,cumulative_deletesById=0,cumulative_deletesByQuery=3,cumulative_errors=0,transaction_logs_total_size=4535,transaction_logs_total_number=10}
+INFO  - 2016-02-16 14:14:37.073; org.apache.solr.update.SolrCoreState; Closing SolrCoreState
+INFO  - 2016-02-16 14:14:37.073; org.apache.solr.update.DefaultSolrCoreState; SolrCoreState ref count has reached 0 - closing IndexWriter
+INFO  - 2016-02-16 14:14:37.073; org.apache.solr.update.DefaultSolrCoreState; closing IndexWriter with IndexWriterCloser
+INFO  - 2016-02-16 14:14:37.074; org.apache.solr.core.SolrCore; [books_metadata] Closing main searcher on request.
+INFO  - 2016-02-16 14:14:37.074; org.apache.solr.core.CachingDirectoryFactory; Closing StandardDirectoryFactory - 2 directories currently being tracked
+INFO  - 2016-02-16 14:14:37.074; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/ba/work/new_solr/solr/example/solr/books_metadata/data/index [CachedDir<<refCount=0;path=/home/ba/work/new_solr/solr/example/solr/books_metadata/data/index;done=false>>]
+INFO  - 2016-02-16 14:14:37.075; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/ba/work/new_solr/solr/example/solr/books_metadata/data/index
+INFO  - 2016-02-16 14:14:37.075; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/ba/work/new_solr/solr/example/solr/books_metadata/data [CachedDir<<refCount=0;path=/home/ba/work/new_solr/solr/example/solr/books_metadata/data;done=false>>]
+INFO  - 2016-02-16 14:14:37.075; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/ba/work/new_solr/solr/example/solr/books_metadata/data
+INFO  - 2016-02-16 14:14:37.075; org.apache.solr.core.SolrCore; [geolocations]  CLOSING SolrCore org.apache.solr.core.SolrCore@186ebdb9
+INFO  - 2016-02-16 14:14:37.075; org.apache.solr.update.DirectUpdateHandler2; closing DirectUpdateHandler2{commits=5,autocommits=0,soft autocommits=0,optimizes=2,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=2,cumulative_deletesById=0,cumulative_deletesByQuery=3,cumulative_errors=0,transaction_logs_total_size=1338,transaction_logs_total_number=10}
+INFO  - 2016-02-16 14:14:37.076; org.apache.solr.update.SolrCoreState; Closing SolrCoreState
+INFO  - 2016-02-16 14:14:37.076; org.apache.solr.update.DefaultSolrCoreState; SolrCoreState ref count has reached 0 - closing IndexWriter
+INFO  - 2016-02-16 14:14:37.076; org.apache.solr.update.DefaultSolrCoreState; closing IndexWriter with IndexWriterCloser
+INFO  - 2016-02-16 14:14:37.077; org.apache.solr.core.SolrCore; [geolocations] Closing main searcher on request.
+INFO  - 2016-02-16 14:14:37.077; org.apache.solr.core.CachingDirectoryFactory; Closing StandardDirectoryFactory - 2 directories currently being tracked
+INFO  - 2016-02-16 14:14:37.077; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/ba/work/new_solr/solr/example/solr/geolocations/data/index [CachedDir<<refCount=0;path=/home/ba/work/new_solr/solr/example/solr/geolocations/data/index;done=false>>]
+INFO  - 2016-02-16 14:14:37.077; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/ba/work/new_solr/solr/example/solr/geolocations/data/index
+INFO  - 2016-02-16 14:14:37.077; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/ba/work/new_solr/solr/example/solr/geolocations/data [CachedDir<<refCount=0;path=/home/ba/work/new_solr/solr/example/solr/geolocations/data;done=false>>]
+INFO  - 2016-02-16 14:14:37.077; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/ba/work/new_solr/solr/example/solr/geolocations/data
+INFO  - 2016-02-16 14:14:37.078; org.apache.solr.core.SolrCore; [names_found]  CLOSING SolrCore org.apache.solr.core.SolrCore@2f0c3b6d
+INFO  - 2016-02-16 14:14:37.078; org.apache.solr.update.DirectUpdateHandler2; closing DirectUpdateHandler2{commits=199,autocommits=0,soft autocommits=0,optimizes=196,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=196,cumulative_deletesById=0,cumulative_deletesByQuery=3,cumulative_errors=0,transaction_logs_total_size=1850,transaction_logs_total_number=10}
+INFO  - 2016-02-16 14:14:37.078; org.apache.solr.update.SolrCoreState; Closing SolrCoreState
+INFO  - 2016-02-16 14:14:37.078; org.apache.solr.update.DefaultSolrCoreState; SolrCoreState ref count has reached 0 - closing IndexWriter
+INFO  - 2016-02-16 14:14:37.078; org.apache.solr.update.DefaultSolrCoreState; closing IndexWriter with IndexWriterCloser
+INFO  - 2016-02-16 14:14:37.079; org.apache.solr.core.SolrCore; [names_found] Closing main searcher on request.
+INFO  - 2016-02-16 14:14:37.079; org.apache.solr.core.CachingDirectoryFactory; Closing StandardDirectoryFactory - 2 directories currently being tracked
+INFO  - 2016-02-16 14:14:37.082; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/ba/work/new_solr/solr/example/solr/names_found/data/index [CachedDir<<refCount=0;path=/home/ba/work/new_solr/solr/example/solr/names_found/data/index;done=false>>]
+INFO  - 2016-02-16 14:14:37.082; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/ba/work/new_solr/solr/example/solr/names_found/data/index
+INFO  - 2016-02-16 14:14:37.082; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/ba/work/new_solr/solr/example/solr/names_found/data [CachedDir<<refCount=0;path=/home/ba/work/new_solr/solr/example/solr/names_found/data;done=false>>]
+INFO  - 2016-02-16 14:14:37.083; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/ba/work/new_solr/solr/example/solr/names_found/data
+INFO  - 2016-02-16 14:14:37.083; org.apache.solr.core.SolrCore; [collection1]  CLOSING SolrCore org.apache.solr.core.SolrCore@358aaa85
+INFO  - 2016-02-16 14:14:37.083; org.apache.solr.update.DirectUpdateHandler2; closing DirectUpdateHandler2{commits=0,autocommit maxTime=15000ms,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0,transaction_logs_total_size=0,transaction_logs_total_number=0}
+INFO  - 2016-02-16 14:14:37.083; org.apache.solr.update.SolrCoreState; Closing SolrCoreState
+INFO  - 2016-02-16 14:14:37.083; org.apache.solr.update.DefaultSolrCoreState; SolrCoreState ref count has reached 0 - closing IndexWriter
+INFO  - 2016-02-16 14:14:37.083; org.apache.solr.update.DefaultSolrCoreState; closing IndexWriter with IndexWriterCloser
+INFO  - 2016-02-16 14:14:37.085; org.apache.solr.core.SolrCore; [collection1] Closing main searcher on request.
+INFO  - 2016-02-16 14:14:37.085; org.apache.solr.core.CachingDirectoryFactory; Closing NRTCachingDirectoryFactory - 2 directories currently being tracked
+INFO  - 2016-02-16 14:14:37.085; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/ba/work/new_solr/solr/example/solr/collection1/data/index [CachedDir<<refCount=0;path=/home/ba/work/new_solr/solr/example/solr/collection1/data/index;done=false>>]
+INFO  - 2016-02-16 14:14:37.086; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/ba/work/new_solr/solr/example/solr/collection1/data/index
+INFO  - 2016-02-16 14:14:37.086; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/ba/work/new_solr/solr/example/solr/collection1/data [CachedDir<<refCount=0;path=/home/ba/work/new_solr/solr/example/solr/collection1/data;done=false>>]
+INFO  - 2016-02-16 14:14:37.086; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/ba/work/new_solr/solr/example/solr/collection1/data
+INFO  - 2016-02-16 14:14:37.088; org.eclipse.jetty.server.handler.ContextHandler; stopped o.e.j.w.WebAppContext{/solr,file:/home/ba/work/new_solr/solr/example/solr-webapp/webapp/},/home/ba/work/new_solr/solr/example/webapps/solr.war
+WARN  - 2016-02-16 14:14:37.267; org.eclipse.jetty.util.thread.QueuedThreadPool; 8 threads could not be stopped
